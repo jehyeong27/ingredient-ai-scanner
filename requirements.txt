@@ -1,0 +1,25 @@
+# Web UI
+gradio>=4.0.0
+
+# Image Processing & Computer Vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=9.5.0
+
+# OCR & Deep Learning
+# paddlepaddle 및 paddleocr는 환경에 맞춰 설치 (Windows 환경 등)
+paddleocr>=2.7.0
+ultralytics>=8.0.0
+
+# String Matching & NLP
+rapidfuzz>=3.0.0
+
+# Data Processing
+pandas>=2.0.0
+openpyxl>=3.1.0
+pydantic>=2.0.0
+
+# LLM Providers (선택적 사용)
+openai>=1.0.0
+google-genai>=0.1.0
+requests>=2.31.0
