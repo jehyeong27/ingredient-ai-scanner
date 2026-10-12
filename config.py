@@ -1,8 +1,12 @@
 import os
 from pathlib import Path
+from dotenv import load_dotenv
 
 # Base Paths
 BASE_DIR = Path(__file__).resolve().parent
+
+load_dotenv(BASE_DIR / ".env")
+
 DATA_DIR = BASE_DIR / "data"
 PROCESSED_DATA_DIR = DATA_DIR / "processed"
 RAW_DATA_DIR = DATA_DIR / "raw"
