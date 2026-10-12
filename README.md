@@ -120,8 +120,7 @@ python -m unittest discover -s tests -v
 ├── services/                  # 분석 파이프라인과 처리 서비스
 ├── tests/                     # 단위 및 파이프라인 테스트
 ├── requirements.txt
-├── BEGINNER_GUIDE.md          # 초보자용 코드 읽기 안내
-└── PRESENTATION_OUTLINE.md    # 발표 자료 구성안
+└── BEGINNER_GUIDE.md          # 초보자용 코드 읽기 안내
 ```
 
 ## 참고
